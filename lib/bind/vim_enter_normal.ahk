@@ -1,6 +1,5 @@
 ﻿#If Vim.IsVimGroup()
 Esc::Vim.State.HandleEsc()
-Capslock::Vim.State.HandleEsc()
 ^[::Vim.State.HandleCtrlBracket()
 
 

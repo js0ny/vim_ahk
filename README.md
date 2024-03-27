@@ -10,6 +10,14 @@ This is vim emulation for Windows.
 If you are interested in the same settings for Mac,
 try Vim emulation for [Karabiner - Software for macOS](https://pqrs.org/osx/karabiner/): [Karabiner-Elements complex_modifications rules by rcmdnk](https://rcmdnk.com/KE-complex_modifications/).
 
+## The Fork
+
+This is a fork of the original vim_ahk, main changes are:
+
+* Integrate [CapsLockCtrlEscape](https://gist.github.com/sedm0784/4443120) script to vim_ahk.
+* Remove Visual Studio Code and Obsidian from the default VimGroup.
+* Add MATLAB, zotero, Discord, QQ and WeChat to the default VimGroup.
+
 ## Installation
 
 ### Scripts

@@ -252,12 +252,15 @@ class VimAhk{
                   , "ahk_exe texworks.exe"  ; TexWork
                   , "Write:"                ; Thunderbird, English
                   , "作成"                  ; Thunderbird, 日本語
-                  , "ahk_exe Code.exe"      ; Visual Studio Code
                   , "ahk_exe WINWORD.exe"   ; Word
                   , "ahk_exe wordpad.exe"   ; WordPad
                   , "ahk_exe Q-Dir_x64.exe" ; Q-dir
                   , "ahk_exe Q-Dir.exe"     ; Q-dir
-                  , "ahk_exe Obsidian.exe"] ; Obsidian
+                  , "ahk_exe MATLAB.exe"    ; MATLAB
+                  , "ahk_exe zotero.exe"    ; Zotero
+                  , "ahk_exe Discord.exe"   ; Discord
+                  , "ahk_exe WeChat.exe"    ; WeChat
+                  , "ahk_exe QQ.exe"] ; QQ
 
     DefaultGroup := ""
     for i, v in DefaultList

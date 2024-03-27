@@ -1,5 +1,3 @@
-#Requires AutoHotkey v1.1
-
 g_LastCtrlKeyDownTime := 0
 g_AbortSendEsc := false
 g_ControlRepeatDetected := false
@@ -28,7 +26,11 @@ g_ControlRepeatDetected := false
     time_elapsed := current_time - g_LastCtrlKeyDownTime
     if (time_elapsed <= 250)
     {
-        SendInput {Esc}
+        if !Vim.IsVimGroup(){
+            SendInput {Esc}
+        } else {
+            Vim.State.HandleEsc()
+        }
     }
     return
 

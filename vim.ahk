@@ -6,3 +6,4 @@ Vim := new VimAhk()
 Return
 
 #Include %A_LineFile%\..\lib\vim_ahk.ahk
+#Include, %A_LineFile%\..\lib\bind\CapsLockCtrlEscape.ahk
